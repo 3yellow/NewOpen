@@ -1,0 +1,116 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.newlogin"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:5:5-42:19
+12        android:allowBackup="true"
+12-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.0.1] C:\Users\hyt19\.gradle\caches\transforms-2\files-2.1\c0a39027978b83a483a047f5c31d0c4e\core-1.0.1\AndroidManifest.xml:22:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme.NoActionBar" >
+20-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:11:9-52
+21        <activity android:name="com.example.newlogin.ansanalysis" />
+21-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:12:9-58
+21-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:12:19-46
+22        <activity android:name="com.example.newlogin.backtest5" />
+22-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:13:9-47
+22-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:13:19-44
+23        <activity android:name="com.example.newlogin.backtest4" />
+23-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:14:9-47
+23-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:14:19-44
+24        <activity android:name="com.example.newlogin.backtest3" />
+24-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:15:9-47
+24-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:15:19-44
+25        <activity android:name="com.example.newlogin.backtest2" />
+25-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:16:9-47
+25-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:16:19-44
+26        <activity android:name="com.example.newlogin.backtest" />
+26-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:17:9-46
+26-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:17:19-43
+27        <activity android:name="com.example.newlogin.watchvedio" />
+27-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:18:9-48
+27-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:18:19-45
+28        <activity android:name="com.example.newlogin.readpdf" />
+28-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:19:9-45
+28-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:19:19-42
+29        <activity android:name="com.example.newlogin.fronttest5" />
+29-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:20:9-48
+29-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:20:19-45
+30        <activity android:name="com.example.newlogin.fronttest4" />
+30-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:21:9-48
+30-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:21:19-45
+31        <activity android:name="com.example.newlogin.fronttest3" />
+31-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:22:9-48
+31-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:22:19-45
+32        <activity android:name="com.example.newlogin.fronttest2" />
+32-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:23:9-48
+32-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:23:19-45
+33        <activity android:name="com.example.newlogin.fronttest" />
+33-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:24:9-47
+33-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:24:19-44
+34        <activity android:name="com.example.newlogin.kidney_reason" />
+34-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:25:9-51
+34-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:25:19-48
+35        <activity android:name="com.example.newlogin.kindney_function" />
+35-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:26:9-54
+35-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:26:19-51
+36        <activity android:name="com.example.newlogin.Vtheme" />
+36-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:27:9-44
+36-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:27:19-41
+37        <activity android:name="com.example.newlogin.Wtheme" />
+37-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:28:9-44
+37-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:28:19-41
+38        <activity android:name="com.example.newlogin.signature" />
+38-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:29:9-47
+38-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:29:19-44
+39        <activity android:name="com.example.newlogin.consent" />
+39-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:30:9-45
+39-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:30:19-42
+40        <activity android:name="com.example.newlogin.Searchlogin" />
+40-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:31:9-49
+40-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:31:19-46
+41        <activity android:name="com.example.newlogin.Menu" />
+41-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:32:9-42
+41-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:32:19-39
+42        <activity android:name="com.example.newlogin.Newdata" />
+42-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:33:9-45
+42-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:33:19-42
+43        <activity android:name="com.example.newlogin.Test" />
+43-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:34:9-42
+43-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:34:19-39
+44        <activity android:name="com.example.newlogin.MainActivity" >
+44-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:35:9-41:20
+44-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:35:19-47
+45            <intent-filter>
+45-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:36:13-40:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:37:17-69
+46-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:37:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:39:17-77
+48-->C:\AndroidProject\Login(1)\NewLogin\app\src\main\AndroidManifest.xml:39:27-74
+49            </intent-filter>
+50        </activity>
+51    </application>
+52
+53</manifest>

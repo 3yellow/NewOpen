@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.newlogin">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".ansanalysis"></activity>
+        <activity android:name=".backtest5" />
+        <activity android:name=".backtest4" />
+        <activity android:name=".backtest3" />
+        <activity android:name=".backtest2" />
+        <activity android:name=".backtest" />
+        <activity android:name=".watchvedio" />
+        <activity android:name=".readpdf" />
+        <activity android:name=".fronttest5" />
+        <activity android:name=".fronttest4" />
+        <activity android:name=".fronttest3" />
+        <activity android:name=".fronttest2" />
+        <activity android:name=".fronttest" />
+        <activity android:name=".kidney_reason" />
+        <activity android:name=".kindney_function" />
+        <activity android:name=".Vtheme" />
+        <activity android:name=".Wtheme" />
+        <activity android:name=".signature" />
+        <activity android:name=".consent" />
+        <activity android:name=".Searchlogin" />
+        <activity android:name=".Menu" />
+        <activity android:name=".Newdata" />
+        <activity android:name=".Test" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
