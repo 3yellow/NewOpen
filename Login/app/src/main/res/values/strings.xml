@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Login</string>
+
+    <!-- Login -->
+    <string name="prompt_account">Account Number</string>
+    <string name="prompt_password">Password</string>
+    <string name="Sign_in">Sign in</string>
+</resources>
