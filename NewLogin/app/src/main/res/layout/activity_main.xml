@@ -12,14 +12,16 @@
         android:background="@drawable/login"
         android:orientation="vertical">
 
-        <LinearLayout
+        <TableLayout
             android:layout_width="match_parent"
             android:layout_height="171dp"
-            android:orientation="horizontal"></LinearLayout>
+            android:orientation="horizontal"
+            android:layout_marginTop="290dp">
 
-        <LinearLayout
+        <TableRow
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginRight="300dp"
             android:orientation="horizontal">
 
             <TextView
@@ -41,12 +43,11 @@
                 android:textSize="24sp" />
 
             <LinearLayout
-                android:layout_width="285dp"
-                android:layout_height="88dp"
-                android:orientation="horizontal"></LinearLayout>
-        </LinearLayout>
+                android:layout_width="75dp"
+                android:layout_height="50dp" />
+        </TableRow>
 
-        <LinearLayout
+        <TableRow
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
@@ -71,14 +72,15 @@
 
             <ImageButton
                 android:id="@+id/change"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_width="74dp"
+                android:layout_height="50dp"
                 android:layout_weight="1"
                 android:background="#00FFFFFF"
                 android:scaleType="fitStart"
                 app:srcCompat="@drawable/eye" />
+        </TableRow>
+        </TableLayout>
 
-        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -102,6 +104,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="@drawable/shape"
+                android:onClick="back"
                 android:text="後臺管理"
                 android:textSize="30sp" />
 

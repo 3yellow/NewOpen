@@ -654,7 +654,6 @@ id Analysis
 id Ans
 id CTRL
 id FUNCTION
-id ListView01
 id META
 id Question
 id SHIFT
@@ -699,8 +698,6 @@ id button10
 id button11
 id button12
 id button14
-id button2
-id button3
 id button5
 id button6
 id button7
@@ -819,6 +816,9 @@ id tabMode
 id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
+id tbl
+id tbr
+id tex_nurse_name
 id text
 id text2
 id textSpacerNoButtons
@@ -829,6 +829,7 @@ id textView2
 id textView3
 id textView4
 id textView5
+id textView6
 id textView7
 id textView8
 id textView9

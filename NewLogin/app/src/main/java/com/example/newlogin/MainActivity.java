@@ -44,14 +44,17 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-
-
-
     }
     public void choicepatient(View v){
         intent.setClass(this, Searchlogin.class);
         intent.putExtra("name", Account.getText().toString());
         startActivity(intent);
+        finish();
+    }
+    public  void  back(View v){
+        Intent i=new Intent(MainActivity.this,Menu.class);
+        startActivity(i);
+        finish();
     }
 
 }

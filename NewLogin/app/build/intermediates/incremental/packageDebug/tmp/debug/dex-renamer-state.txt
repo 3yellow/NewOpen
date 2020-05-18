@@ -1,4 +1,4 @@
-#Sun Apr 26 23:53:29 CST 2020
-base.0=C\:\\AndroidProject\\Login(1)\\NewLogin\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+#Sun May 17 16:24:35 GMT+08:00 2020
+base.0=C\:\\Users\\USER\\NewOpen\\NewLogin\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
